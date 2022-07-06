@@ -18,7 +18,7 @@ body {
   place-items: center;
 }
 #display {
-  width: 40%;
+  width: 80%;
   height: 40%;
   display: grid;
   place-items: center;
@@ -33,6 +33,8 @@ button {
   padding: 3vw;
   margin: 0.5vw;
   transition: all 0.3s ease;
+  font-size: calc(1rem + 1vw);
+  font-weight: bold;
 }
 
 button:hover {
