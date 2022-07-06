@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: royalblue;
+}
+
+#container {
+  width: 80vw;
+  min-height: 50vh;
+  display: grid;
+  place-items: center;
+}
+#display {
+  width: 40%;
+  height: 40%;
+  display: grid;
+  place-items: center;
+  background-color: white;
+  font-family: sans-serif;
+  letter-spacing: 0.5vw;
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  padding: 3vw;
+  margin: 0.5vw;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  border: 0.5vw solid royalblue;
+  outline: 0.3vw solid white;
+}
